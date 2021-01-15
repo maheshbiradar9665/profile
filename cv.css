@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(224, 221, 221);
+}
+
+.container{
+
+    margin: auto;
+
+}
+
+.header{
+    height:400px;
+    background-color: rgb(51, 185, 141);
+    margin: auto;
+    padding-top: 20px;
+    color: white;
+    font-size: small;
+    font-weight: 200;
+}
+.header h2{
+    padding-top: 40px;
+}
+.header h2 , h4{
+    width: 75%;
+    margin: auto;
+}
+
+
+.profile{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 75%;
+    margin: auto;
+    margin-top:-250px ;
+    box-shadow: 0px 1px 2px 0px;
+}
+.profile img{
+    width: auto;
+    height: 400px;
+    float: left;
+    margin-right: 20px;
+}
+.profileinfo h2{
+    padding-top: 20px;
+}
+
+.profileinfo span{
+    color: rgb(51, 185, 141);
+}
+
+.infocontainer{
+    margin: 20px;
+    display: flex;
+    line-height: 52px;
+}
+
+.boldtext{
+    font-weight: 800;
+    padding-left: 20px;
+}
+
+.detailtext{
+    padding-left: 30px;
+}
+
+.skill{
+    padding-top: 50px;
+    color:  rgb(51, 185, 141);
+    text-align: center;
+}
+
+.skill h2{
+    font-weight: 800;
+}
+
+.skilldetail{
+    height: 300px;
+    width: 75%;
+    margin: auto;
+    box-shadow: 0px 1px 2px 0px;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.skilldetail li{
+    padding-top: 60px;
+    width: 70%;
+    margin: auto;
+    list-style: none;
+}
+
+.bar{
+    background: #161616;
+    display: block;
+    height: 6px;
+
+}
+
+.bar span{
+    height:6px;
+    float: left;
+    background: rgb(51, 185, 141);
+}
+
+.html{
+    width: 90%;
+    animation :html 3s;
+}
+
+.css{
+    width: 85%;
+    animation :css 3s;
+}
+
+.javascript{
+    width: 50%;
+    animation :javascript 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    90%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    85%{
+        width: 85%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 50%;
+    }
+}
